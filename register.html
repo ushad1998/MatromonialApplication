@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<title>Registration form</title>
+</head>
+<body>
+	<h1>Registration form</h1>
+	<h2>All fields are mandatory</h2>
+	<form class="" action="thankyou.html" method="post">
+		<label for="name">Name</label>
+		<input id="name" type="text" name="name" placeholder="Enter name" required><br>
+		<label for="mail">Email</label>
+		<input id="mail" type="email" name="mail" placeholder="Enter email" required><br>
+		
+		<label for="age">Age</label>
+		<input id="age" type="text" name="age" placeholder="Enter age" required>
+
+		<h3>Are you interested in dating</h3>
+		<label for="dat">Yes</label>
+		<input id="dat" type="radio" name="dating" value=""
+		>
+		<label for="dat1">No</label>
+		<input id="dat1" type="radio" name="dating" value="">
+
+		<h3>Your Expections like:</h3>
+		<select class="" name="expe">
+			<option value="katrina">Katrina Kaif</option>
+			<option value="kareena">kareena</option>
+		</select>
+		<h3>How many types decoration you want:</h3>
+		<select class="" name="nom">
+			<option value="one">1</option>
+			<option value="two">2</option>
+		</select>
+		<h3>Dream Places:</h3>
+		<input type="checkbox" name="Bali" value="yes">Yes
+		<input type="checkbox" name="Goa" value="no">No
+		<input type="checkbox" name="kashmir" value="weekend">only once week
+		<h3>your preferences and extra information</h3>
+		<textarea name="pref" rows="8" col="80"></textarea>
+		<input type="submit" name="" value="register">
+	</form>
+</body>
+</html>
